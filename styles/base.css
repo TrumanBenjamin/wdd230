@@ -1,0 +1,70 @@
+header, footer, nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1{
+    text-align: center;
+    background-color: cadetblue;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    width: 50%;
+}
+header h1 img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+header h1 h1{
+    margin: 0;
+}
+nav{
+    margin: auto;
+    width: 50%;
+    background-color: beige;
+    text-align: center;
+    align-items: center
+
+}
+nav a{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main h2{
+    text-align: center;
+}
+.card{
+    text-align: center;
+}
+.card h3 ul li{
+    display: block;
+    margin: 0 auto;
+}
+.subsection{
+    background-color: beige;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer{
+    background-color: cadetblue;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
