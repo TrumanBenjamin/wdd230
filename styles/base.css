@@ -47,7 +47,7 @@ main h2{
 }
 .card h3 ul li{
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 .subsection{
     background-color: beige;

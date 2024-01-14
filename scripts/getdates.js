@@ -6,4 +6,4 @@ if (Date.parse(document.lastModified) != 0)
                    + document.lastModified
                    + '</i></small>');
 
-document.getElementById("lastModified").innerHTML = document.lastModified;
+document.getElementById("lastModified").innerHTML = document.lastModified; 
