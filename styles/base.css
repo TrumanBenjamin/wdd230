@@ -38,17 +38,28 @@ main{
     margin-left: 20%;
     margin-right: 20%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 10;
 }
 main h2{
     text-align: center;
+    padding: 10px;
 }
 .card{
-    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
-.card h3 ul li{
+.activities li a{
     display: block;
-    margin: 0 auto; 
+    margin-bottom: 10px; 
+    text-decoration: none;
+    grid-row: span 10;
 }
+.activities li {
+    list-style-type: none;
+}
+
 .subsection{
     background-color: beige;
     width: 40%;
