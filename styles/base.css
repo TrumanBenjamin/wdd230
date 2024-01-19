@@ -49,12 +49,15 @@ main h2{
 .card{
     margin-bottom: 10px;
     text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .activities li a{
     display: block;
     margin-bottom: 10px; 
     text-decoration: none;
     grid-row: span 10;
+
 }
 .activities li {
     list-style-type: none;
