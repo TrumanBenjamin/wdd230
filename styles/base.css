@@ -1,39 +1,50 @@
+
 header, footer, nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header h1{
     text-align: center;
-    background-color: cadetblue;
     margin: 0 auto;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 20px;
-    width: 50%;
+}
+header h1, nav{
+    background-color: cadetblue;
+    width: 70%;
 }
 header h1 img{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-header h1 h1{
-    margin: 0;
-}
+
+
 nav{
     margin: auto;
-    width: 50%;
-    background-color: beige;
     text-align: center;
-    align-items: center
-
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 nav a{
-    display: block;
+    display: block; 
     padding: 5px;
     text-align: center;
     text-decoration: none;
     color: black;
     font-size: 20px;
     font-weight: 400;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    transition: transform 0.3s ease;
 }
+nav a:hover{
+    transform: translateY(-5px);
+}
+
 main{
     margin-left: 20%;
     margin-right: 20%;
@@ -53,9 +64,11 @@ main h2{
     margin-right: 10%;
 }
 .activities li a{
+    /* This is the one that will modify the text of the a tags you put in!! */
     display: block;
     margin-bottom: 10px; 
     text-decoration: none;
+    color: black;
     grid-row: span 10;
 
 }
@@ -64,11 +77,12 @@ main h2{
 }
 
 .subsection{
-    background-color: beige;
+    background-color:rgba(179, 190, 190, 0.461);
+    border-radius: 10px;
     width: 40%;
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 body{
     margin-left: 20%;
