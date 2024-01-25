@@ -16,18 +16,18 @@
     header, footer, nav{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    header h1{
+    .profile{
         text-align: center;
         margin: 0 auto;
         margin-top: 0;
         margin-bottom: 0;
         padding-bottom: 20px;
     }
-    header h1, nav{
+    .profile, nav{
         background-color: cadetblue;
         width: 70%;
     }
-    header h1 img{
+    header div img{
         margin-top: 20px;
         margin-bottom: 10px;
     }
@@ -130,6 +130,11 @@
         text-align: center;
         margin: 0 auto;
         padding: 10px;
+    }
+    iframe {
+        display: flex;
+        margin: auto;
+        padding: 20px;
     }
 
     footer{
