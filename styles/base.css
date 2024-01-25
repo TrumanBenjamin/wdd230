@@ -79,15 +79,11 @@ main h2{
 .subsection{
     background-color:rgba(179, 190, 190, 0.461);
     border-radius: 10px;
-    width: 40%;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
 }
-body{
-    margin-left: 20%;
-    margin-right: 20%;
-}
+
 footer{
     background-color: cadetblue;
     margin: auto;
