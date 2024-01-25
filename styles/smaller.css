@@ -17,4 +17,7 @@
     nav a {
         display: none !important;
     }
+    #menu {
+        display: block;
+    }
 }
