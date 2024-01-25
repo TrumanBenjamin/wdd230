@@ -8,4 +8,35 @@
 	.subsection {
 		max-width: 320px;
 	}
+	.navigation{
+		margin: auto;
+		text-align: center;
+		align-items: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.navigation a{
+		display: block; 
+		padding: 5px;
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		font-weight: 400;
+		border-right: 1px solid #000;
+		border-left: 1px solid #000;
+		transition: transform 0.3s ease;
+	}
+	nav a:hover{
+		transform: translateY(-5px);
+	}
+	#menu {
+		display: none;
+	}
+	.open {
+		display: none;
+	}
 }
