@@ -1,0 +1,60 @@
+@media only screen and (min-width: 768px) {
+    .schema {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    .schema div {
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .header {
+        background-color: cadetblue;
+        
+    }
+    .navlinks {
+        background-color: cadetblue;
+        transition: transform 0.3s ease;
+    }
+    .navlinks:hover {
+        transform: translateY(-5px);
+        background-color:rgb(142, 187, 189);
+    }
+    .buttonstyle {
+        color: white;
+        background-color: rgb(99, 86, 184);
+    }
+    .purpose {
+        background-color:rgba(179, 190, 190, 0.461);;
+
+    }
+    .typography {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    .typography div{
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .header2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navlinks2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .buttonstyle2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .purpose2 {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
