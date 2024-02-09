@@ -6,8 +6,8 @@ const list = document.querySelector("#list");
 
 // event listeners
 button.addEventListener("click", () => {
-    if (input.value != '') 
-    {console.log("Add Chapter button clicked!");
+    if (input.value != '') {
+    console.log("Add Chapter button clicked!");
     const li = document.createElement("li");
     const deleteButton = document.createElement("button");
     li.textContent = input.value;
@@ -19,6 +19,7 @@ button.addEventListener("click", () => {
         input.focus();  
         input.value = "";
     });
-    };
+    }
+
 });
 
