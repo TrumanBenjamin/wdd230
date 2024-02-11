@@ -1,4 +1,5 @@
 @media only screen and (min-width: 769px) {
+
     #mode {
         position: absolute;
         top: 1rem;
@@ -10,16 +11,22 @@
     .dark-mode {
         background-color: #2a2a2a;
         color: #fff;
-        border-color: #eee; 
+        border-color: #fff; 
+    }
+    .darknav {
+        color: #fff;
     }
     .hero {
         position: relative;
         display: inline-block;
     }
+    .hero img {
+        width: 100%;
+    }
     #join {
         position: absolute;
         top: 50%;
-        left: 15%;
+        left: 20%;
         padding: 10px 20px;
         color: rgba(255, 255, 255, 0.8);
         background-color: rgb(99, 86, 184); 
@@ -34,5 +41,94 @@
         color: rgba(255, 255, 255, 1);
         box-shadow: 0 0 20px rgb(71, 56, 165);
         transform: scale(1.01);
+    }
+    header {
+        background-color: cadetblue;
+    }
+    header div h1 {
+        margin-left: 40px;
+    }
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+        align-items: center;
+    }
+    nav a {
+        margin: 20px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        transition: transform 0.3s ease;
+    }
+    nav a:hover {
+        transform: translateY(-3px);
+    }
+    .info {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5%;
+    }
+    .info h2 {
+        margin-left: 20px;
+    }
+    .events {
+        grid-column: 1/2;
+        border: 1px solid #2a2a2a;
+        width: 100%;
+    }
+    .events p {
+        margin-left: 20px;
+    }
+    .weather p {
+        margin-left: 20px;
+    }
+    .weather {
+        grid-column:2/3;
+        margin: auto;
+        border: 1px solid hsl(0, 0%, 16%);
+        width: 100%;
+    }
+    .spotlights {
+        text-align: center;
+        margin-top: 80px;
+    }
+    .spotlightgrid {
+        display: grid;
+        margin-left: 5%;
+        margin-right: 5%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5%;
+        text-align: center;
+    }
+    .member1 {
+        grid-template-columns: 1/2;
+        border: 1px solid #2a2a2a;
+    }
+    .member2 {
+        grid-template-columns: 2/3;
+        border: 1px solid #2a2a2a;
+    }
+    .member3 {
+        grid-template-columns: 3/4;
+        border: 1px solid #2a2a2a;
+    }
+    .footergrid {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: cadetblue;
+    }
+    .chamberaddress {
+        grid-template-columns: 1/2;
+        text-align: center;
+    }
+    .contact {
+        grid-template-columns: 2/3;
+        text-align: center;
     }
 }

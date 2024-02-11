@@ -20,11 +20,21 @@
     #join {
         position: absolute;
         top: 50%;
-        left: 0;
-        transform: translate(0, -50%);
+        left: 15%;
         padding: 10px 20px;
-        background-color: #ffffff;
-        border: 1px solid #000000;
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgb(99, 86, 184); 
+        border: 2px solid rgb(71, 56, 165); 
+        border-radius: 5px;
+        font-size:x-large;
+        font-family: sans-serif;
         cursor: pointer;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
     }
+    #join:hover {
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 0 20px rgb(71, 56, 165);
+        transform: scale(1.01);
+    }
+}
 }
