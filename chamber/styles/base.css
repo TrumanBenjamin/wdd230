@@ -1,5 +1,79 @@
 @media only screen and (max-width: 768px) {
 
+    /* trying to get hamburger button to work... */
+    nav {
+        display: none;
+    }
+    nav.open {
+        display: flex;
+    }
+
+    #menu { 
+        display: block;
+    }
+    #menu {
+        font-size: 2rem;
+        font-weight: 700;
+        text-decoration: none;
+        background-color:cadetblue;
+        text-align: center;
+        margin: 0 auto;
+        color: #000;
+        padding-bottom: 10px;
+    }
+
+    #menu::before {
+        content: "≡";
+    }
+    #menu.open::before {
+        content: "❎";
+    }
+
+    .open {
+        display: block;
+        flex-direction: column;
+    }
+    nav.open a {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+        border-left: none;
+        border-right: none;
+        text-decoration: none;
+        transition: transform 0.3s ease;
+        transform: translateY(-3px);
+        padding: 5px;
+        color: black;
+    }
+    nav.open {
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+        transition: transform 0.3s ease;
+        padding-bottom: 10px;
+        background-color: cadetblue;
+        color: black;
+    }
+    .nav a{
+        display: block; 
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
+        transition: transform 0.3s ease;
+    }
+    nav a:hover{
+        transform: translateY(-5px);
+    }
+    /* end of hamburger button stuff */
+    
     #mode {
         position: absolute;
         top: 1rem;
@@ -36,5 +110,11 @@
         box-shadow: 0 0 20px rgb(71, 56, 165);
         transform: scale(1.01);
     }
-}
+    header {
+        background-color: cadetblue;
+    }
+    .hero img {
+        width: 100%;
+    }
+
 }
