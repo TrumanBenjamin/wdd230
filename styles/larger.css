@@ -60,20 +60,40 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 200px auto;
+    }
+    .temple {
+        margin-top: 50px;
+        grid-column: 1/3;
+        grid-row: 1/2;
+        position: relative;
+    }
+    .image img {
+        max-width: 100%;
+    }
+    .label {
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        color: white;
+        font-size: larger;
+        background: radial-gradient(#bccccc, #83a1b1);
+        padding: 10px;
+        border-radius: 10px;
     }
     main h2{
         text-align: center;
         margin: auto;
         padding: 10px;
         grid-column: 1/3;
-        grid-row: 1/2;
+        grid-row: 2/3;
     }
     .card{
         margin-bottom: 10px;
         text-decoration: none;
         margin-left: 10%;
         margin-right: 10%;
+        /* overflow: auto; */
     }
 	.card a {
 		text-align: left;
