@@ -121,6 +121,9 @@
         display: flex;
         margin: auto;
         padding: 20px;
+        width: 600px;
+        height: 450px;
+        border: 0;
     }
 	footer{
         background-color: cadetblue;
