@@ -91,6 +91,10 @@
         position: relative;
         display: inline-block;
     }
+    #join a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.8);
+    }
     #join {
         position: absolute;
         top: 50%;

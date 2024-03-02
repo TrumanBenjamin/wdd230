@@ -23,6 +23,10 @@
     .hero img {
         width: 100%;
     }
+    #join a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.8);
+    }
     #join {
         position: absolute;
         top: 50%;
@@ -36,6 +40,7 @@
         font-family: sans-serif;
         cursor: pointer;
         transition: box-shadow 0.3s ease, transform 0.3s ease;
+        text-decoration: none;
     }
     #join:hover {
         color: rgba(255, 255, 255, 1);
