@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "ABC Corporation",
+        "address": "123 Main St, New York, USA",
+        "phone": "+1 123-456-7890",
+        "website": "https://www.abccorporation.com",
+        "image": "abc_corp.jpg",
+        "membership_level": "Gold",
+        "other_info": "Leading provider of innovative software solutions for businesses worldwide."
+      },
+      {
+        "name": "XYZ Enterprises",
+        "address": "456 Elm St, Los Angeles, USA",
+        "phone": "+1 987-654-3210",
+        "website": "https://www.xyzenterprises.com",
+        "image": "xyz_enterprises.jpg",
+        "membership_level": "Silver",
+        "other_info": "Delivering cutting-edge technology services to enhance client productivity and efficiency."
+      },
+      {
+        "name": "Global Solutions Inc.",
+        "address": "789 Oak St, Chicago, USA",
+        "phone": "+1 111-222-3333",
+        "website": "https://www.globalsolutionsinc.com",
+        "image": "global_solutions.jpg",
+        "membership_level": "Bronze",
+        "other_info": "Providing comprehensive consulting services to businesses seeking global expansion."
+      },
+      {
+        "name": "Tech Innovations Ltd.",
+        "address": "101 Pine St, San Francisco, USA",
+        "phone": "+1 555-666-7777",
+        "website": "https://www.techinnovations.com",
+        "image": "tech_innovations.jpg",
+        "membership_level": "Gold",
+        "other_info": "Pioneering breakthrough solutions in the fields of artificial intelligence and machine learning."
+      },
+      {
+        "name": "Sunrise Industries",
+        "address": "222 Maple St, Miami, USA",
+        "phone": "+1 888-999-0000",
+        "website": "https://www.sunriseindustries.com",
+        "image": "sunrise_industries.jpg",
+        "membership_level": "Silver",
+        "other_info": "Dedicated to sustainable development and environmental stewardship through innovative manufacturing processes."
+      },
+      {
+        "name": "Dynamic Technologies",
+        "address": "333 Oak St, Seattle, USA",
+        "phone": "+1 222-333-4444",
+        "website": "https://www.dynamictech.com",
+        "image": "dynamic_technologies.jpg",
+        "membership_level": "Bronze",
+        "other_info": "Empowering businesses with scalable and secure IT solutions tailored to their unique needs."
+      },
+      {
+        "name": "Alpha Solutions",
+        "address": "444 Elm St, Boston, USA",
+        "phone": "+1 777-888-9999",
+        "website": "https://www.alphasolutions.com",
+        "image": "alpha_solutions.jpg",
+        "membership_level": "Gold",
+        "other_info": "Driving digital transformation through innovative software development and strategic consulting services."
+      }
+    ]
+  }
+  

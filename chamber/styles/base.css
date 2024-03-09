@@ -120,5 +120,19 @@
     .hero img {
         width: 100%;
     }
+    .grid-view {
+        display: block; 
+    }
+    #toggleView {
+        display: none;
+    }
+    .list-view {
+        display: block;
+    }
+    .member {
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
 
 }
