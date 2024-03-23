@@ -167,5 +167,21 @@
         padding: 20px;
         margin-bottom: 20px;
     }
+    #weatherInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .spotlightgrid {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .footergrid {
+        background-color: cadetblue;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
 
 }
